@@ -3,9 +3,6 @@
 	spoofer by passing 1 as a command line argument. You can choose to run the 
 	Ethernet spoofer by passing 2 as a command line argument. Both options will call
 	separate functions.
-
-	Helping source: 
-	- http://hacked10bits.blogspot.com/2011/12/sending-raw-ethernet-frames-in-6-easy.html
 */
 
 #include <stdio.h>
