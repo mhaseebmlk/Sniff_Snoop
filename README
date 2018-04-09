@@ -1,0 +1,21 @@
+Task 2
+- Compilation
+	gcc -o task2_spoofer task2_spoofer.c
+- Executing the program
+
+	sudo task2_spoofer <option #>
+
+	Options:
+		1: ICMP Echo Request
+		2: Ethernet Frame
+
+Task 3
+- Compilation
+	gcc -o task3_sniff_snoop task3_sniff_snoop.c -lpcap
+- Executing the program
+	
+	sudo ./task3_sniff_snoop <interface name>
+
+	Interface name e.g. eth0 or eth14
+- According to my VMs setup, machine A has IP 192.168.15.5 and machine B has IP 
+	192.168.15.4. Please do not change these two in the program.
